@@ -1,8 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+#The overall script will inverse a matrix and will keep it in the cache 
 
-## Write a short comment describing this function
 
+## The following function will create a object that will mainly contain 4 functions 
 makeCacheMatrix <- function(x = matrix()) {
     inverse_x <- NULL
     set <- function(y){
@@ -19,7 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## The function will return the inverse of a matrix; if it is in the cache it will return in cache value otherwise calculate it
+
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
